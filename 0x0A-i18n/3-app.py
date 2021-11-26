@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ Basic Flask app"""
-from flask_babel import Babel
-from flask import Flask, render_template, request, flash
+from flask_babel import Babel, _
+from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder='templates')
 babel = Babel(app)
