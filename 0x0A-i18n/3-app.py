@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-""" Basic Flask app
-"""
+""" Basic Flask app"""
 from flask_babel import Babel, _
 from flask import Flask, render_template, request, flash
 
